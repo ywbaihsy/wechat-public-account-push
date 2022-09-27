@@ -29,11 +29,11 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -85,16 +85,17 @@ const USER_CONFIG = {
           type: '*生日', name: '小韩同学', year: '2002', date: '02-06',
         },
         {
-          type: '生日', name: '小叶同学', year: '2000', date: '10-29',
+          type: '*生日', name: '小叶同学', year: '2000', date: '10-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '回国', name: '姐姐', year: '2023', date: '01-09',
-        },
+       
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
+         {
+          type: '回国', name: '姐姐', year: '2023', date: '01-09',
+        },
         { keyword: 'love_day', date: '2017-12-02' }
       ],
       // 课程表相关配置
