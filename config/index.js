@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooxZd5nr8jk7CjlWDvMwRcVfXj_o',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'WODGBtumPk9YxRQTzyyjIi5LD3xZ70j8_Oj3wyx5Jh8',
+      useTemplateId: 'mQQqhHoPE5lskCKULD12RygPqG7rbzMwpNIPGaYigbw',
       // 所在省份
       province: '大邱',
       // 所在城市
@@ -96,7 +96,8 @@ const USER_CONFIG = {
          {
           type: '回国', name: '姐姐', year: '2023', date: '01-09',
         },
-        { keyword: 'love_day', date: '2017-12-02' }
+        { keyword: 'love_day', date: '2017-12-02' },
+        { keyword: 'back_day', data: '2023-01-09' },
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
