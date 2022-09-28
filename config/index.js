@@ -69,7 +69,7 @@ const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'WODGBtumPk9YxRQTzyyjIi5LD3xZ70j8_Oj3wyx5Jh8',
       // 所在省份
-      province: '韩国',
+      province: '大邱',
       // 所在城市
       city: '大邱',
       // 新历生日, 仅用作获取星座运势, 格式必须
