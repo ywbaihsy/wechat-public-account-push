@@ -87,15 +87,16 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '小叶同学', year: '2000', date: '10-29',
         },
+        {
+          type: '回国', name: '姐姐', year: '2023', date: '01-09',
+        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
        
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-         {
-          type: '回国', name: '姐姐', year: '2023', date: '01-09',
-        },
+         
         { keyword: 'love_day', date: '2017-12-02' },
         { keyword: 'back_day', data: '2023-01-09' },
       ],
